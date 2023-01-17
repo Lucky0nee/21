@@ -7,6 +7,7 @@ int main() {
 	system("chcp 1251>nul");
 	string String;
 	string Temp;
+	cout << "Введiть слово: ";
 	while (String.length() == 0)
 		getline(cin, String);
 
